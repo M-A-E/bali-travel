@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.darkBackground {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.514);
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  color: #fcb371;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.description {
+  width: 768px;
+  height: 190px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#button-back {
+  background-color: none;
+  background: none;
+  border: none;
+}
+
+#button-back:active {
+  transform: scale(1.1);
+}

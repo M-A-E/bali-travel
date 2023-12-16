@@ -1,0 +1,74 @@
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../public/background/ImageBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.darkBackground {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.514);
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* text */
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Cheapest {
+  color: white;
+}
+
+.btn-about {
+  width: 156px;
+  height: 46px;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: #fcb371;
+  background: none;
+  color: #fcb371;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.btn-about:hover {
+  background: none;
+  border-color: #fcb371;
+  color: white;
+}
+
+.btn-about:active {
+  background: none;
+  border-color: #fcb371;
+  color: #fcb371;
+}
+
+.btn-reservation {
+  width: 156px;
+  height: 46px;
+  border-radius: 6px;
+  border: none;
+  background-color: #fcb371;
+  color: white;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.btn-reservation:hover {
+  background-color: #ffc28c;
+}
+
+.btn-reservation:active {
+  background-color: #ffca9c;
+}
